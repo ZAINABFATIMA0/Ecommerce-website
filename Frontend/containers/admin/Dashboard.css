@@ -1,0 +1,34 @@
+.sidebar {
+    padding: 0;
+}
+
+.sidebar .list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.sidebar .list-group-item.active {
+    background-color: #f1f1f1;
+}
+
+.sidebar-icon {
+    margin-right: 8px;
+}
+
+.sidebar-divider {
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
